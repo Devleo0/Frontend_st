@@ -10,6 +10,21 @@ body{
     background-color: #252525;
 }
 
+h1{
+    font-size: 2.5em;
+    margin: 20px;
+    width: 900px;
+    text-align: center;
+    font-family:'Source Code Pro', monospace;
+}
+
+p{
+    color: antiquewhite;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 30px;
+}
+
 #container{
     background-color: #575757;
     border-radius: 15px;
@@ -18,4 +33,88 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+#content{
+    display: grid;
+    height: auto;
+    width: 950px;
+    margin-bottom: 30px;
+    grid-template-areas: 
+    "header header header header header"
+    "ad content content content ad2"
+    "footer footer footer footer footer"
+    ;
+    box-shadow: 0 0 10px #fff, 0 0 40px #fff;
+    
+
+}
+
+hr{
+    width: 98%;
+    box-shadow: 0 0 10px #fff, 0 0 40px #fff;
+}
+
+#content1{
+    display: grid;
+    height: auto;
+    width: 950px;
+    margin-bottom: 30px;
+    grid-template-areas: 
+    "header header header header header"
+    "ad content content content content"
+    "ad2 footer footer footer footer"
+    ;
+    box-shadow: 0 0 10px #fff, 0 0 40px #fff;
+    
+
+}
+
+#content2{
+    display: grid;
+    height: auto;
+    width: 950px;
+    margin-bottom: 30px;
+    grid-template-areas: 
+    "header header header header header"
+    "ad ad2 content content content"
+    "ad footer footer footer footer"
+    ;
+    box-shadow: 0 0 10px #fff, 0 0 40px #fff;
+    
+
+}
+
+
+.item1{
+    background-color: #7e5353;
+    width: 100%;
+    height: 100px;
+    grid-area: header;
+    border: 1px solid #ccc;
+}
+.item2{
+    background-color: #a1a1a1;
+    height: 100%;
+    grid-area: ad;
+    border: 1px solid #ccc;
+}
+.item3{
+    background-color: #252525;
+    height: 500px;
+    grid-area: content;
+    border: 1px solid #ccc;
+}
+.item4{
+    background-color: #a1a1a1;
+    height: 100%;
+    grid-area: ad2;
+    border: 1px solid #ccc;
+}
+.item5{
+    background-color: #352121;
+    width: 100%;
+    height: 100px;
+	border: 1px solid #ccc;
+    grid-area: footer;
 }
