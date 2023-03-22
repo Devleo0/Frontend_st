@@ -1,100 +1,99 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    width: 100%;
-    height: 100vh;
-    background-color: #252525;
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #252525;
 }
 
-#container{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: auto;
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
 }
 
-#content{
-    width: 60%;
-    height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
+#content {
+  width: 60%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-#article{
-    width: 100%;
-    height: 70%;
-    background-color: #b9fbc0;
+#article {
+  width: 100%;
+  height: 70%;
+  background-color: #b9fbc0;
 }
 
-#author{
-    width: 70%;
-    height: 50px;
-    background-color: #98f5e1;
+#author {
+  width: 70%;
+  height: 50px;
+  background-color: #98f5e1;
 }
 
-#references{
-    width: 70%;
-    height: calc(30% - 50px);
-    background-color: #98f5e1;
+#references {
+  width: 70%;
+  height: calc(30% - 50px);
+  background-color: #98f5e1;
 }
 
-
-#authorface{
-    width: 30%;
-    height: 30%;
-    background-color: #90dbf4;
-    margin-top: -50px;
+#authorface {
+  width: 30%;
+  height: 30%;
+  background-color: #90dbf4;
+  margin-top: -50px;
 }
 
-#rightbar{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 40%;
-    height: 100vh;
+#rightbar {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 40%;
+  height: 100vh;
 }
 
-#moreinfo{
-    width: 50%;
-    height: calc(100% - 50px);
-    background-color: #a3c4f3;
+#moreinfo {
+  width: 50%;
+  height: calc(100% - 50px);
+  background-color: #a3c4f3;
 }
 
-#ref{
-    width: 50%;
-    height: 50px;
-    background-color: #cfbaf0;
+#ref {
+  width: 50%;
+  height: 50px;
+  background-color: #cfbaf0;
 }
 
-#logo{
-    width: 50%;
-    height: 20%;
-    background-color: #f1c0e8;
+#logo {
+  width: 50%;
+  height: 20%;
+  background-color: #f1c0e8;
 }
 
-#keyworld{
-    width: 50%;
-    height: 50px;
-    background-color: #ffcfd2;
+#keyworld {
+  width: 50%;
+  height: 50px;
+  background-color: #ffcfd2;
 }
 
-#textbox{
-    width: 50%;
-    height: calc(80% - 150px);
-    background-color: #fde4cf;
+#textbox {
+  width: 50%;
+  height: calc(80% - 150px);
+  background-color: #fde4cf;
 }
 
-#info1{
-    width: 50%;
-    height: 50px;
-    background-color: #fbf8cc;
+#info1 {
+  width: 50%;
+  height: 50px;
+  background-color: #fbf8cc;
 }
 
-#info2{
-    width: 50%;
-    height: 50px;
-    background-color: #ffedd8;
+#info2 {
+  width: 50%;
+  height: 50px;
+  background-color: #ffedd8;
 }
